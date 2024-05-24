@@ -1,0 +1,83 @@
+/* General Styles */
+* {
+    background-color: rgb(3, 0, 0);
+    color: azure;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i:hover{
+    color:rgb(6, 124, 128);
+    }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(67.5deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%, rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%, rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%, rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%, rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%, rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%, rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%), 
+                      linear-gradient(90deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%, rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%, rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%, rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%, rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%, rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%, rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%), 
+                      linear-gradient(135deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%, rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%, rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%, rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%, rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%, rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%, rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%), 
+                      linear-gradient(0deg, rgb(6, 6, 6) 0%, rgb(6, 6, 6) 6%, rgb(29, 29, 29) 6%, rgb(29, 29, 29) 57%, rgb(52, 52, 52) 57%, rgb(52, 52, 52) 58%, rgb(75, 75, 75) 58%, rgb(75, 75, 75) 79%, rgb(97, 97, 97) 79%, rgb(97, 97, 97) 93%, rgb(120, 120, 120) 93%, rgb(120, 120, 120) 95%, rgb(143, 143, 143) 95%, rgb(143, 143, 143) 100%), 
+                      linear-gradient(90deg, rgb(8, 8, 8), rgb(221, 221, 221));
+    background-blend-mode: overlay, overlay, overlay, overlay, normal;
+}
+
+/* Centered Content */
+.center {
+    text-align: center;
+    margin: auto;
+}
+
+/* Navigation Bar Styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+nav li {
+    float: left;
+    border-right: 0px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #000402;
+}
+
+/* Main Content */
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(8, 100, 122);
+    color: rgb(8, 100, 122);
+    text-align: center;
+    padding: 0px 0;
+}
+
+footer p {
+    margin: 0;
+}
