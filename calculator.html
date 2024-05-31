@@ -1,0 +1,49 @@
+<head>
+    <link rel="stylesheet" href="styless.css">
+</head>
+    <body>
+        <div>
+            <h1>CALCULATOR</h1>
+            <input type="number" id="num1">
+            <br/>
+            <input type="number" id="num2">
+            <br/>
+            <button onclick="calculatesum()">+</button>
+            <button onclick="calculatesub()">-</button>
+            <button onclick="calculateprod()">*</button>
+            <button onclick="calculateDiv()">/</button>
+            <script >
+             function calculatesum()
+    {
+        let num1=parseInt(document.getElementById("num1").value);
+        let num2=parseInt(document.getElementById("num2").value);
+        console.log("sum is :::",num1+num2);
+    }
+
+    function calculatesub()
+    {
+        let num1=parseInt(document.getElementById("num1").value);
+        let num2=parseInt(document.getElementById("num2").value);
+        console.log("sum is :::",num1-num2);
+    }
+
+    function calculateprod()
+    {
+        let num1=parseInt(document.getElementById("num1").value);
+        let num2=parseInt(document.getElementById("num2").value);
+        console.log("sum is :::",num1*num2);
+    }
+
+    function calculateDiv()
+    {
+        let num1=parseInt(document.getElementById("num1").value);
+        let num2=parseInt(document.getElementById("num2").value);
+        console.log("sum is :::",num1/num2);
+    }
+
+
+
+
+            </script>
+        </div>
+    </body>
